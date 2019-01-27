@@ -6,6 +6,7 @@ h1 {
     margin: 0 auto;
     border: 1px solid black;
     width: 350px;
+    background-image: url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 }
 
 .completed {
