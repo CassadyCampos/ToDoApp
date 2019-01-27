@@ -13,13 +13,10 @@ h1 {
     text-align: center; 
     margin: 0; 
     padding: 10px 15px;
+    padding-right: 45px;
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-
-
 }
 
 input {
@@ -57,3 +54,32 @@ li {
 li:nth-child(2n) {
     background-color: #e6e6e6;
 }
+
+.deleteX {
+    width: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+#checkList {
+    float: left;
+}
+span {
+    display: inline-block;
+    width: 0;
+    height: 35px;
+    margin-right: 5px;
+    background-color: #cc0000;
+}
+
+li:hover span{
+    width: 35px;
+    -webkit-transition: width 600ms;
+    border-top-right-radius: 5px;
+}
+
+li:hover span .deleteX {
+    -webkit-transition: opacity 1s;
+    opacity: 1;
+} 
