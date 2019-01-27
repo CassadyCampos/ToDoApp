@@ -1,14 +1,36 @@
-h1 {
-    text-align: center;    
+h1,li {
+    font-family: "Coiny", cursive;
 }
 
+h1 {
+    text-align: center; 
+    border: 1px solid red;  
+    margin: 0 0; 
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f5;
+}
 #container {
     margin: 0 auto;
     border: 1px solid black;
-    width: 350px;
+    width: 360px;
 }
 
 .completed {
     color: gray;
     text-decoration: line-through;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+li {
+    border: 1px solid red;
 }
