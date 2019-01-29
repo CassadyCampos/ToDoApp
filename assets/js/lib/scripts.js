@@ -15,7 +15,7 @@ $("input[type='text").keypress(function(event) {
    if(event.which === 13) {
       var nextTask = $(this).val(); 
       $(this).val("");
-      $("ul").append("<li><span>X</span> " + nextTask + "</li>");
+      $("ul").append("<li><span><img class='deleteX' src='https://img.icons8.com/metro/26/000000/close-window.png'></span>" + nextTask + "</li>");
    }
 });
 
