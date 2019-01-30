@@ -75,7 +75,7 @@ span {
 
 li:hover span{
     width: 35px;
-    -webkit-transition: width 600ms;
+    -webkit-transition: width 500ms;
     border-top-right-radius: 5px;
 }
 
